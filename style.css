@@ -298,7 +298,7 @@ header {
     border-radius: 14px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
     border: 1px solid rgba(212, 163, 115, 0.25);
-    min-height: 180px;
+    min-height: 260px;
 }
 
 .skill-box-center {
@@ -316,6 +316,20 @@ header {
     color: #cbd5e1;
     font-size: 17px;
     line-height: 1.7;
+}
+.skills-list {
+    margin-top: 15px;
+    padding-left: 20px;
+    color: #cbd5e1;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.skills-list strong {
+    color: #d4a373;
 }
 
 
