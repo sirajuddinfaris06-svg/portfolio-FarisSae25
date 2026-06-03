@@ -187,7 +187,20 @@ header {
 
 
 /* PROJECT CARDS */
+.project-container-three {
+    grid-template-columns: repeat(3, 1fr);
+}
 
+.project-proof-img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 16px;
+    margin: 25px 0;
+    background-color: #0b1120;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
 .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -425,7 +438,9 @@ footer {
         flex-direction: column;
         gap: 15px;
     }
-
+.project-container-three {
+    grid-template-columns: 1fr;
+}
     .nav-links {
         flex-wrap: wrap;
         justify-content: center;
